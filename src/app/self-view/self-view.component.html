@@ -1,0 +1,36 @@
+<!-- <p>self-view works!</p> -->
+<!-- <div *ngFor="let  details of someDetail">
+    <p>{{details.name}}</p>
+</div> -->
+<!-- <h2>My Heroes</h2> -->
+<!-- <ul class="heroes">
+  <li *ngFor="let details of someDetail"
+    [class.selected]="hero === selectDetail"
+    (click)="onSelect(hero)">
+    <span class="badge">{{details.id}}</span> {{details.name}}
+  </li>
+</ul> -->
+<div class="tableDetails">
+  <table class="detales"*ngFor="let details of someDetail">
+    <tr>
+      <td>UID</td>
+      <td>{{details.uid| uppercase }}</td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>{{details.name| uppercase }}</td>
+    </tr>
+    <tr>
+      <td>DOJ</td>
+      <td>{{details.doj| uppercase }}</td>
+    </tr>
+    <tr>
+      <td>JOB Status</td>
+      <td>{{details.job_status| uppercase }}</td>
+    </tr>
+    <tr>
+      <td>Department</td>
+      <td>{{details.department| uppercase }}</td>
+    </tr>
+  </table>
+</div>

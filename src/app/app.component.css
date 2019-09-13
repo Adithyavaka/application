@@ -1,0 +1,40 @@
+.navbar{
+    /* width: 100%; */
+    /* position: fixed; */
+    
+}
+.sidenav{
+/* padding: 10px; */
+position: fixed;
+width: 250px;
+border: 1px solid rgba(0,0,0,0.5);
+    /* box-shadow: 0 5px 10px rgba(0,0,0,0.5); */
+    height: 100%;
+    overflow: hidden;
+
+}
+.sidenav a{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.sidenav a:hover{
+    background: whitesmoke;
+}
+.data {
+    border: 1px solid rgba(0,0,0,0.5);
+    display: flex;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,0.5); */
+    z-index: 1;
+}
+.tittle{
+    width: 75%;
+}
+.tittle h2{
+    padding: 0px 10px 0px 10px;
+}
+.tittle1{
+    text-align: center;
+}
